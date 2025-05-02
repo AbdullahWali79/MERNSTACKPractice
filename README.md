@@ -1,6 +1,6 @@
 # Steps to Run Projects of React
 ## How to Create Default Project
-###npm create vite@latest
+###    npm create vite@latest
 ## Step 01 for Backend Open CMD or PowerShell
 ![image](https://github.com/user-attachments/assets/8f142578-2762-4653-a6ce-a7ee3476d1ab)
 ## Step 02 for Front End Open CMD or PowerShell
