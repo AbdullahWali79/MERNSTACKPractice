@@ -1,3 +1,3 @@
 # React + Vite
 
-![image](https://github.com/user-attachments/assets/1b08f9a8-2773-4946-9a50-474130fbaddd)
+![image](https://github.com/user-attachments/assets/88ccbecb-8d80-48f9-84f7-37e94da4460d)
