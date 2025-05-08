@@ -8,14 +8,15 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-// Replace <username> and <password> with your MongoDB Atlas credentials
-// Replace <cluster-url> with your cluster URL
-mongoose.connect('mongodb+srv://<username>:<password>@<cluster-url>/crud_db?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://abdullahwale:abdullahwale123@cluster0.2uoxg0v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
-.then(() => console.log('MongoDB Connected'))
-.catch(err => console.log('MongoDB Connection Error:', err));
+.then(() => console.log('MongoDB Connected Successfully'))
+.catch(err => {
+    console.log('MongoDB Connection Error:', err.message);
+    console.log('Please check your username and password in the connection string');
+});
 
 // Define Schema
 const itemSchema = new mongoose.Schema({
