@@ -8,7 +8,9 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb+srv://your_username:your_password@cluster0.mongodb.net/crud_db?retryWrites=true&w=majority', {
+// Replace <username> and <password> with your MongoDB Atlas credentials
+// Replace <cluster-url> with your cluster URL
+mongoose.connect('mongodb+srv://<username>:<password>@<cluster-url>/crud_db?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
